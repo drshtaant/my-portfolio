@@ -1,223 +1,212 @@
 {
-    "hero": {
-      "name":"Adarsh Kumar",
-      "designation": "Full Stack Engineer",
-      "description":"Full Stack Web Developer",
-      "githubLink": "https://github.com/drshtaant", 
-      "about":"I'm Adarsh Kumar, a dedicated full-stack web developer with 2 years of experience. I specialize in JavaScript, React.js, Node.js, and Python, and have expertise in cloud platforms like AWS and GCP. I excel in delivering high-quality code and collaborating with cross-functional teams to create innovative web solutions. Continuous learning and pushing the boundaries of web development drive me forward.",
-      "experienceMessage": "In this section, I outline my professional experience, highlighting the positions I have held and the organizations I have worked with. For each role, I include a brief description of my responsibilities and accomplishments. This section helps provide a comprehensive view of my career progression and the value I bring to the table.",
-      "projectsMessage": "In this section, I have highlighted some of the notable projects I have worked on. Each project includes a brief description, my role, the technologies or tools used, and any relevant outcomes or achievements. Feel free to explore the projects and learn more about my capabilities.",
-      "contactmessage":"Want to get in touch with me?",
-      "email": "adarshh.addi@gmail.com",
-      "phone": "+91 8017808685",
-      "github":"https://github.com/drshtaant",
-      "project":"https://e-commerce-adarsh.herokuapp.com/",
-      "address":{
-        "street":"Harpur",
-        "city":"Gopalganj",
-        "state":"Bihar",
-        "zip": "841440"
+  "hero": {
+    "name": "Adarsh Kumar",
+    "designation": "Full Stack Engineer",
+    "description": "Full Stack Web Developer",
+    "githubLink": "https://github.com/drshtaant",
+    "about": "I'm Adarsh Kumar, a dedicated full-stack web developer with 2 years of experience. I specialize in JavaScript, React.js, Node.js, and Python, and have expertise in cloud platforms like AWS and GCP. I excel in delivering high-quality code and collaborating with cross-functional teams to create innovative web solutions. Continuous learning and pushing the boundaries of web development drive me forward.",
+    "experienceMessage": "In this section, I outline my professional experience, highlighting the positions I have held and the organizations I have worked with. For each role, I include a brief description of my responsibilities and accomplishments. This section helps provide a comprehensive view of my career progression and the value I bring to the table.",
+    "projectsMessage": "In this section, I have highlighted some of the notable projects I have worked on. Each project includes a brief description, my role, the technologies or tools used, and any relevant outcomes or achievements. Feel free to explore the projects and learn more about my capabilities.",
+    "contactmessage": "Want to get in touch with me?",
+    "email": "adarshh.addi@gmail.com",
+    "phone": "+91 8017808685",
+    "github": "https://github.com/drshtaant",
+    "project": "https://e-commerce-adarsh.herokuapp.com/",
+    "address": {
+      "city": "Patna",
+      "state": "Bihar",
+      "zip": "800002"
+    },
+    "website": "",
+    "resumedownload": "https://drive.google.com/file/d/1J04fi5t536Xcw6D2N7RzUUtcnS4aABxQ/view?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/drshtaant/",
+        "className": "fa fa-linkedin"
       },
-      "website": "",
-      "resumedownload":"https://drive.google.com/file/d/1J04fi5t536Xcw6D2N7RzUUtcnS4aABxQ/view?usp=sharing",
-      "social":[
-        
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/drshtaant/",
-          "className":"fa fa-linkedin"
-        },
-        
-        {
-          "name":"github",
-          "url":"https://github.com/drshtaant",
-          "className":"fa fa-github"
-        }
-      ]
-    },
-    "skills":{
-      "desc": "This section provides an overview of my skills and proficiencies. I have acquired expertise in various areas throughout my career, and I am constantly updating and expanding my skill set. Here are some of the key skills I possess:",
-      "skillList": ["Javascript", "ReactJs", "Nodejs", "Expressjs", "MongoDb", "Psotgresql", "AWS", "GCP"]
-    },
-    "experience": [
-        {
-          "title": "Software Engineer",
-          "company": "Softway Solutions",
-          "startDate": "May 2023",
-          "endDate": "current",
-          "description": "Developed web applications using React and Node.js."
-        },
-        {
-          "title": "Full Stack Web Engineer",
-          "company": "Invigrid Inc.",
-          "startDate": "Jan. 2022",
-          "endDate": "May 2023",
-          "description": "In my role, I developed complex dashboards on the frontend using React, incorporating libraries like react-table, charts, and forms. I utilized Redux for state management and integrated Auth0 for login and protected routes. On the backend (Node + Express), I created multiple APIs to support product functionality, connecting them to the frontend and integrating AWS/GCP APIs for data retrieval. I worked on setting up an AWS 2-tier architecture, deployed the server on EC2 with NGINX and Forever, and implemented CI/CD pipeline using GitHub Actions on AWS EC2."
-        },
-        {
-          "title": "Full stack Web Developer",
-          "company": "Quleep",
-          "startDate": "Aug 2021",
-          "endDate": "Dec 2021",
-          "description": "During my internship at Quleep, I worked as a Full-Stack Web Developer, utilizing React.js, Node.js, Express.js, and AWS services like EC2, S3, and DynamoDB. I independently developed the company's product website, integrated payment gateways, performed robust testing using Selenium, and implemented a CI/CD approach for efficient deployment of high-quality web applications."
-        },       
-        {
-          "title": "Technical Content Writer",
-          "company": "NSP Global Services",
-          "startDate": "July 2021",
-          "endDate": "Sep 2021",
-          "description": "I contributed to the company's blog by writing engaging and informative articles on technical topics like Web Hosting, Website Layout, Industry 4.0, AI Importance, and Bounce Rate. Through high-quality blog posts, I demonstrated strong knowledge of the latest trends, improved the company's thought leadership, and effectively communicated complex technical concepts to a broad audience."
-        }
-      ],
-   "education":
-        {
-          "school":"Bengal College of Engineering & Technology, Durgapur",
-          "degree":"Bachelor of Technology",
-          "graduated":"08/2017 - 07/2021",
-          "description":"Here, I detail my educational background, including degrees, certifications, or relevant courses. Education plays a crucial role in shaping our skills and knowledge, and I am proud to share my academic achievements in this section."
-        },
 
-    "resume":{
-      "skillmessage":"My Skills in technology are listed down below.",
-  
-      "certificates":[
-        {
-          "company":"Global Entrepreneurship summit",
-          "title":"",
-          "years":"Participated in Global Entrepreneurship Conference (GEC), Startup Camp, ‘Connect the Dots’, conducted by IIT KHARAGPUR. ",
-          "description":""
-        },
-        {
-          "company":"Online Computer Programming",
-          "title":"",
-          "years":"GUVI Geek Networks, IITM Research Park.",
-          "description":""
-        },
-        {
-          "company":"Certificate for Completion of C Training",
-          "title":"",
-          "years":"A project of the National Mission on Education through ICT funded by the Ministry of Education (MHRD), Govt. of India",
-          "description":""
-        },
-        {
-          "company":"NAGARRO CAREER BOOT CAMP - WEB DEVELOPMENT",
-          "title":"",
-          "years":"Coding Blocks",
-          "description":""
-        },
-        {
-          "company":"Online Computer Programming",
-          "title":"",
-          "years":"GUVI Geek networks, IITM research Park",
-          "description":""
-        },
-        {
-          "company":"Machine Learning A-Z™: Hands-On Python & R In Data Science",
-          "title":"",
-          "years":"Udemy",
-          "description":""
-        },
-        {
-          "company":"Google Analysrics for Advance",
-          "title":"",
-          "years":"Google",
-          "description":""
-        }
-      ],
-      "skills":[
-        {
-          "name":"C"
-          
-        },
-        {
-          "name":"HTML-CSS"
-          
-        },
-        {
-          "name":"JavaScript"
-          
-        },
-        {
-          "name":"AWS"
-          
-        },
-        {
-          "name":"Mongo DB"
-          
-        },
-        {
-          "name":"Bootstrap"
-          
-        },
-        {
-          "name":"React.js"
-          
-        },
-        {
-          "name":"Node.js"
-          
-        },
-        {
-          "name":"Express.js"
-          
-        },
-        {
-          "name":"MySQL"
-          
-        },
-        {
-          "name":"JQuery"
-          
-        },
-        {
-          "name":"DBMS"
-          
-        },
-        {
-          "name":"GitHub"
-          
-        },
-        {
-          "name":"WordPress"
-          
-        },
-        {
-          "name":"Selenium Testing"
-          
-        },
-        {
-          "name":"REST API's"
-          
-        }
-        
-      ]
+      {
+        "name": "github",
+        "url": "https://github.com/drshtaant",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "skills": {
+    "desc": "This section provides an overview of my skills and proficiencies. I have acquired expertise in various areas throughout my career, and I am constantly updating and expanding my skill set. Here are some of the key skills I possess:",
+    "skillList": [
+      "Javascript",
+      "ReactJs",
+      "Nodejs",
+      "Expressjs",
+      "MongoDb",
+      "Psotgresql",
+      "AWS",
+      "GCP"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Softway Solutions",
+      "startDate": "May 2023",
+      "endDate": "current",
+      "description": "Developed web applications using React and Node.js."
     },
-    "portfolio":{
-      "projects": [
-        {
-          "title":"Company Website",
-          "category":"Made this website for the company I have done internship",
-          "image":"arnxt.png",
-          "url":"https://www.arnxt.com"
-        },
-        {
-          "title":"Project",
-          "category":"My final year project",
-          "image":"grocery.png",
-          "url":"https://e-commerce-adarsh.herokuapp.com/"
-        },
-        {
-          "title":"My Portfolio",
-          "category":"Know about me",
-          "image":"portfolio.png",
-          "url":"https://adarsh-portfolio.herokuapp.com/"
-        },
-        {
-          "title":"Social App",
-          "category":"A Social App just for fun",
-          "image":"social.png",
-          "url":"https://social-app-adarsh.herokuapp.com/"
-        }
-      ]
+    {
+      "title": "Full Stack Web Engineer",
+      "company": "Invigrid Inc.",
+      "startDate": "Jan. 2022",
+      "endDate": "May 2023",
+      "description": "In my role, I developed complex dashboards on the frontend using React, incorporating libraries like react-table, charts, and forms. I utilized Redux for state management and integrated Auth0 for login and protected routes. On the backend (Node + Express), I created multiple APIs to support product functionality, connecting them to the frontend and integrating AWS/GCP APIs for data retrieval. I worked on setting up an AWS 2-tier architecture, deployed the server on EC2 with NGINX and Forever, and implemented CI/CD pipeline using GitHub Actions on AWS EC2."
+    },
+    {
+      "title": "Full stack Web Developer",
+      "company": "Quleep",
+      "startDate": "Aug 2021",
+      "endDate": "Dec 2021",
+      "description": "During my internship at Quleep, I worked as a Full-Stack Web Developer, utilizing React.js, Node.js, Express.js, and AWS services like EC2, S3, and DynamoDB. I independently developed the company's product website, integrated payment gateways, performed robust testing using Selenium, and implemented a CI/CD approach for efficient deployment of high-quality web applications."
+    },
+    {
+      "title": "Technical Content Writer",
+      "company": "NSP Global Services",
+      "startDate": "July 2021",
+      "endDate": "Sep 2021",
+      "description": "I contributed to the company's blog by writing engaging and informative articles on technical topics like Web Hosting, Website Layout, Industry 4.0, AI Importance, and Bounce Rate. Through high-quality blog posts, I demonstrated strong knowledge of the latest trends, improved the company's thought leadership, and effectively communicated complex technical concepts to a broad audience."
     }
+  ],
+  "education": {
+    "school": "Bengal College of Engineering & Technology, Durgapur",
+    "degree": "Bachelor of Technology",
+    "graduated": "08/2017 - 07/2021",
+    "description": "Here, I detail my educational background, including degrees, certifications, or relevant courses. Education plays a crucial role in shaping our skills and knowledge, and I am proud to share my academic achievements in this section."
+  },
+
+  "resume": {
+    "skillmessage": "My Skills in technology are listed down below.",
+
+    "certificates": [
+      {
+        "company": "Global Entrepreneurship summit",
+        "title": "",
+        "years": "Participated in Global Entrepreneurship Conference (GEC), Startup Camp, ‘Connect the Dots’, conducted by IIT KHARAGPUR. ",
+        "description": ""
+      },
+      {
+        "company": "Online Computer Programming",
+        "title": "",
+        "years": "GUVI Geek Networks, IITM Research Park.",
+        "description": ""
+      },
+      {
+        "company": "Certificate for Completion of C Training",
+        "title": "",
+        "years": "A project of the National Mission on Education through ICT funded by the Ministry of Education (MHRD), Govt. of India",
+        "description": ""
+      },
+      {
+        "company": "NAGARRO CAREER BOOT CAMP - WEB DEVELOPMENT",
+        "title": "",
+        "years": "Coding Blocks",
+        "description": ""
+      },
+      {
+        "company": "Online Computer Programming",
+        "title": "",
+        "years": "GUVI Geek networks, IITM research Park",
+        "description": ""
+      },
+      {
+        "company": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+        "title": "",
+        "years": "Udemy",
+        "description": ""
+      },
+      {
+        "company": "Google Analysrics for Advance",
+        "title": "",
+        "years": "Google",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "C"
+      },
+      {
+        "name": "HTML-CSS"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "AWS"
+      },
+      {
+        "name": "Mongo DB"
+      },
+      {
+        "name": "Bootstrap"
+      },
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "JQuery"
+      },
+      {
+        "name": "DBMS"
+      },
+      {
+        "name": "GitHub"
+      },
+      {
+        "name": "WordPress"
+      },
+      {
+        "name": "Selenium Testing"
+      },
+      {
+        "name": "REST API's"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Company Website",
+        "category": "Made this website for the company I have done internship",
+        "image": "arnxt.png",
+        "url": "https://www.arnxt.com"
+      },
+      {
+        "title": "Project",
+        "category": "My final year project",
+        "image": "grocery.png",
+        "url": "https://e-commerce-adarsh.herokuapp.com/"
+      },
+      {
+        "title": "My Portfolio",
+        "category": "Know about me",
+        "image": "portfolio.png",
+        "url": "https://adarsh-portfolio.herokuapp.com/"
+      },
+      {
+        "title": "Social App",
+        "category": "A Social App just for fun",
+        "image": "social.png",
+        "url": "https://social-app-adarsh.herokuapp.com/"
+      }
+    ]
   }
+}
