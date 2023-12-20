@@ -1,5 +1,5 @@
 "use client";
-
+import React from 'react';
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
 import About from '@/components/About';
@@ -13,11 +13,13 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export default function Home() {
+
+  
   return (
     <>
-      <Navbar />
+      <Navbar  />
       <HeroSection />
-      <About />
+      <About  />
       <Skills />
       <Education/>
       <Experience/>

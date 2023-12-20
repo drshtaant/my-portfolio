@@ -2,7 +2,7 @@ import React from 'react'
 
 function Education() {
   return (
-<section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+<section className="text-gray-400 bg-gray-800 body-font overflow-hidden">
   <div className="container px-5 py-24 mx-auto">
     <div className="-my-8 divide-y-2 divide-gray-800">
       <div className="py-8 flex flex-wrap md:flex-nowrap">
