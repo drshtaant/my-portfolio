@@ -5,14 +5,14 @@ function Experience( ) {
     let experience = experienceData.experience
   
   const titleData = experienceData.hero.experienceMessage
-  const [expanded, setExpanded] = useState({});
+  const [expanded, setExpanded] = useState<{ [key: number]: boolean }>({});
 
-  const toggleExpand = (index) => {
-    setExpanded((prevExpanded) => ({
-      ...prevExpanded,
-      [index]: !prevExpanded[index],
-    }));
-  };
+ const toggleExpand = (index: number) => {
+  setExpanded((prevExpanded) => ({
+    ...prevExpanded,
+    [index]: !prevExpanded[index],
+  }));
+};
   return (
     <section className="text-gray-400 bg-gray-800 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
