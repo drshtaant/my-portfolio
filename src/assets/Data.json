@@ -43,7 +43,15 @@
       "MongoDb",
       "Psotgresql",
       "AWS",
-      "GCP"
+      "GCP",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Bootstrap",
+      "MySQL",
+      "JQuery",
+      "DBMS",
+      "GitHub"
     ]
   },
   "experience": [
@@ -128,56 +136,6 @@
         "title": "",
         "years": "Google",
         "description": ""
-      }
-    ],
-    "skills": [
-      {
-        "name": "C"
-      },
-      {
-        "name": "HTML-CSS"
-      },
-      {
-        "name": "JavaScript"
-      },
-      {
-        "name": "AWS"
-      },
-      {
-        "name": "Mongo DB"
-      },
-      {
-        "name": "Bootstrap"
-      },
-      {
-        "name": "React.js"
-      },
-      {
-        "name": "Node.js"
-      },
-      {
-        "name": "Express.js"
-      },
-      {
-        "name": "MySQL"
-      },
-      {
-        "name": "JQuery"
-      },
-      {
-        "name": "DBMS"
-      },
-      {
-        "name": "GitHub"
-      },
-      {
-        "name": "WordPress"
-      },
-      {
-        "name": "Selenium Testing"
-      },
-      {
-        "name": "REST API's"
       }
     ]
   },

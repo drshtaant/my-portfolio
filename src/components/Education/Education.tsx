@@ -9,8 +9,8 @@ function Education() {
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Education</h1>
       <p className="lg:w-1/2 w-full leading-relaxed text-opacity-80">{data.description}</p>
-    </div>
-    <div className="-my-8 divide-y-2 divide-gray-800">
+
+      <div className="-my-8 divide-y-2 divide-gray-800 mt-11">
       <div className="py-8 flex flex-wrap md:flex-nowrap">
         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
           <span className="font-semibold title-font text-white">{data.degree}</span>
@@ -28,6 +28,8 @@ function Education() {
         </div>
       </div>
     </div>
+    </div>
+    
   </div>
 </section>
 

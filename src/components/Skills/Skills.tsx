@@ -10,18 +10,17 @@ function Skills() {
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Skills</h1>
       <p className="lg:w-1/2 w-full leading-relaxed text-opacity-80">{data.desc}</p>
     </div>
-    <div className="flex flex-wrap -m-4">
+    <div className="flex flex-wrap -m-2">
        {data.skillList.map((skills) => {
     return ( 
       // eslint-disable-next-line react/jsx-key
-      <div className="xl:w-1/6 w md:w-1/3 p-4">
-        <div className="border border-gray-600 border-opacity-75 p-4 rounded-lg">
-          <h2 className="text-lg text-white font-medium title-font mb-2">{skills}</h2>
+      <div className="xl:w-1/12 w md:w-1/3 p-2 w">
+        <div className="border border-gray-600 border-opacity-75 p-2 rounded-lg">
+          <h2 className="text-sm text-white font-medium title-font">{skills}</h2>
         </div>
       </div>
     );
   })}
-    
     </div>
 
   </div>

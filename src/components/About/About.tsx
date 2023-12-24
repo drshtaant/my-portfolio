@@ -1,10 +1,30 @@
-import React from 'react'
+import React, {useMemo} from 'react'
 import heroData from "@/assets/Data.json"
 import profilePhoto from "@/assets/photo.jpeg";
 import Image from "next/image";
 
+
 function About() {
   let data = heroData.hero
+    const openGitHubProfile = () => {
+    const githubProfileUrl = 'https://github.com/drshtaant';
+    window.open(githubProfileUrl, '_blank');
+  };
+//  const downloadResume = useMemo(async () => {
+//     // eslint-disable-next-line @next/next/no-assign-module-variable
+//     const module = await import('/assets/Resume.pdf');
+//     const resumePath = module.default;
+
+//     return () => {
+//       const link = document.createElement('a');
+//       link.href = resumePath;
+//       link.download = 'resume.pdf';
+
+//       document.body.appendChild(link);
+//       link.click();
+//       document.body.removeChild(link);
+//     };
+//   }, []);
 
   return (
  <section className="text-gray-400 bg-gray-800 body-font">
@@ -15,7 +35,7 @@ function About() {
       </h1>
       <p className="mb-8 leading-relaxed">{data.about}</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-gray-500  border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">More</button>
+        <button onClick={openGitHubProfile} className="inline-flex text-white bg-gray-500  border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">Github</button>
         <button className="ml-4 inline-flex text-gray-400 bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Resume</button>
       </div>
     </div>
