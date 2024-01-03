@@ -140,29 +140,30 @@
     ]
   },
   "portfolio": {
+    "projectsDesc": "Dive into our blog realm, where words weave stories and ideas unfold. From thought-provoking insights to practical tips, embark on a journey of discovery, connection, and inspiration with my diverse collection of articles. Let your curiosity guide you through a spectrum of topics that resonate with life, learning, and everything in between.",
     "projects": [
       {
-        "title": "Company Website",
-        "category": "Made this website for the company I have done internship",
-        "image": "arnxt.png",
-        "url": "https://www.arnxt.com"
+        "title": "MERN AI Chat",
+        "category": "Experience my MERN Stack-powered AI Chatbot – Secure, Swift, and Intuitive. Safeguarded with JWT Tokens, HTTPS, and robust data management, it offers personalized interactions with user messages stored securely in the database.",
+        "image": "/mernAI.png",
+        "url": "https://github.com/drshtaant/AI-chatbot"
       },
       {
-        "title": "Project",
-        "category": "My final year project",
-        "image": "grocery.png",
-        "url": "https://e-commerce-adarsh.herokuapp.com/"
+        "title": "Landing Page",
+        "category": "Elevate your web experience with my Next.js landing page, meticulously crafted with Tailwind CSS for sleek aesthetics and enriched with the power of TypeScript for enhanced functionality. Seamlessly transition between a dynamic Sign-In and Sign-Up page, offering a seamless, responsive, and visually appealing journey for users exploring your digital space.",
+        "image": "/landingPage.png",
+        "url": "https://github.com/drshtaant/landing-page"
       },
       {
         "title": "My Portfolio",
-        "category": "Know about me",
-        "image": "portfolio.png",
-        "url": "https://adarsh-portfolio.herokuapp.com/"
+        "category": "Unveil my professional story with my Next.js Portfolio, meticulously designed with the elegance of Tailwind CSS and the precision of TypeScript. Showcasing my achievements, skills, and projects in a visually captivating and responsive layout, offering visitors an immersive and dynamic exploration of my journey in the world of innovation and creativity.",
+        "image": "/portfolio.png",
+        "url": "https://github.com/drshtaant/my-portfolio"
       },
       {
         "title": "Social App",
         "category": "A Social App just for fun",
-        "image": "social.png",
+        "image": "/mernAI.png",
         "url": "https://social-app-adarsh.herokuapp.com/"
       }
     ]

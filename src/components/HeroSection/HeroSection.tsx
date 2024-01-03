@@ -2,6 +2,7 @@ import React from "react";
 import heroData from "@/assets/Data.json";
 import profilePhoto from "@/assets/photo.jpeg";
 import Image from "next/image";
+import Typer from "@/components/Typer/Typer";
 
 function HeroSection() {
   let data = heroData.hero;
@@ -24,7 +25,7 @@ function HeroSection() {
             Hello, I am {data.name}
           </p>
           <h3 className="text-xl font-bold tracking-tight text-gray-300 sm:text-6xl">
-            {data.designation}
+            <Typer/>
           </h3>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

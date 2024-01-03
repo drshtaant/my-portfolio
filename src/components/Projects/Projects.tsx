@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import portfolioData from "@/assets/Data.json"
+import mernAI from "@/assets/mernAI.png"
 
 function Projects() {
     const data = portfolioData.portfolio
@@ -14,9 +15,11 @@ function Projects() {
             <div key={index} className="p-4 lg:w-1/4 md:w-1/2">
               <div className="h-full flex flex-col items-center text-center">
                 {/* <Image
-                  alt={project.title}
+                  alt="content"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src={project.image} // Assuming the image path is correct
+                  src={project.image}
+                  width={10}
+                  height={10}
                 /> */}
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-white">{project.title}</h2>
